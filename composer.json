@@ -1,0 +1,13 @@
+{
+    "name": "chast/cv-en-ligne",
+    "require": {
+        "twbs/bootstrap": "^4.5",
+        "components/jquery": "^3.5"
+    },
+    "authors": [
+        {
+            "name": "MelonSal2",
+            "email": "chastinquentin@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+.InfoPerso {
+  border: 1px solid black;
+  margin: 2em;
+  margin-top: 5em;
+  padding: 25px;
+  width: 25%;
+  border-radius: 1em;
+  box-shadow: 8px 8px 8px 0px rgb(202, 202, 202);
+  background-color: rgb(240, 240, 240);
+  position: fixed; 
+}
+
+.block2  {
+  border: 1px solid black;
+  padding: 25px;
+  margin: 5em;
+  margin-bottom: 3em;
+  border-radius: 1em;
+  box-shadow: 8px 8px 8px rgb(202, 202, 202);
+  background-color: rgb(240, 240, 240);
+  width: 65%;
+  }
+  
+  .block3  {
+    border: 1px solid black;
+    padding: 25px;
+    margin: 5em;
+    border-radius: 1em;
+    box-shadow: 8px 8px 8px rgb(202, 202, 202);
+    background-color: rgb(240, 240, 240);
+    width: 65%;
+    }
+
+.photocv {
+  width: 12em;
+}
+
+.photocvplacement {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.containerdroite {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
