@@ -6,63 +6,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <link media="screen and (max-width: 1500px)" href="1500px.css" rel="stylesheet">
 
 </head>
 <body>
 
 
-<div class="InfoPerso d-flex flex-column">
-      <h5>Info personnel :</h5>
-      <h5>Oui</h5>
-      <p>8 rue gustave Delory</p>
-      <p>Hérin</p>
-      <h5>Oui</h5>
-      <p>07 78 15 03 33</p>
-      <h5>Oui</h5>
-      <p>chastinquentin@gmail.com</p>
-      <h5>Oui</h5>
-      <p>Date de naissance : 10/07/2002</p>
-      <h5>Oui</h5>
-      <p>Âge : 18ans </p>
-      <h5>Oui</h5>
-      <p>Nationalité : Française</p>
+<div class="InfoPerso d-flex flex-column align-items-start">
+    <div id="nav" class="d-flex">
+      <nav class="navbar navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="p-4">
+            <a role="button" href="#Profil" class="btn btn-light">Profil</a>
+            <a role="button" href="#Competence" class="btn btn-light">Compétences</a>
+            <a role="button" href="#Formation" class="btn btn-light">Formation</a>
+            <a role="button" href="#Diplome" class="btn btn-light">Diplôme</a>
+          </div>
+        </div>
+    </div>
+    <div class="textnav">
+      <h6>Contact :</h6>
+      <p><a href="mailto:chastinquentin@gmail.com">📧 Mail : chastinquentin@gmail.com</a> <br> 📞 Tél: 0778150333 <br> 🏠 Ville: Hérin </p>
+      <h6>Qualité</h6>
+      <p>Autonome, Persévérant, Patient <br> Travaille en équipe, </p>
+      <h6>Langues :</h6>
+      <p>Français : 🟢🟢🟢🟢🔴 <br> Anglais : 🟢🟢🟢🔴🔴</p>
+    </div>
+
 </div>
 
 <div class="containerdroite">
-    <div class="block2 d-flex flex-column align-items-left">
+    
+
+    <div id="Profil" class="block2 d-flex flex-column align-items-left">
 
       <div class="photocvplacement">
       <img class="photocv" src="img/photocv.PNG" alt="photocv">
       </div>
 
       <div>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
+      <h5>Profil :</h5>
+        <p>Je m'appelle Quentin et je suis développeur WEB & WEB Mobile, je fais de la programmation back-end et front-end. <br>
+                Mon job est donc de créer des produits pour le web : cela peut aller d’une simple page vitrine à une application web <br>
+                Passionnée par l'informatique depuis tout petit je me suis lancé dans la programmation à 16ans (2018) en modifiant des plugins de jeu vidéo. Ayant reçus mon BAC scientifique à 18ans
+                Je me suis ensuite orienté sur le développement WEB en faisant une formation à valarep pour recevoir mon diplôme professionel Développeur WEB & WEB Mobile que je fais actuellement.
+
+        </p>
+
       </div>
 
     </div>
 
-    <div class="block3 d-flex flex-column align-items-center">
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-      <h5>Oui</h5>
-    </div>
+<div id="Competence" class="block3 d-flex align-items-center">
+        <h5>Compétences :</h5>
+
+        <div class="placementcompetences w-100 d-flex align-content-stretch">
+
+            <div class="gauchecompetences w-25">
+                <h6>Langages Informatiques : FRONT END</h6>
+            </div>
+
+            <div class="middlecompetences d-flex justify-content-center w-25">
+                    <p>HTML <br> CSS <br> JavaScript <br>  </p>
+            </div>
+
+            <div class="droitecompetences w-50">
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="placementcompetences2 w-100 d-flex align-content-stretch">
+
+            <div class="gauchecompetences w-25">
+                <h6>Langages Informatiques : BACK END</h6>
+            </div>
+
+            <div class="middlecompetences d-flex justify-content-center w-25">
+                    <p>JavaScript <br> Java <br> Python <br> C# <br> PHP <br> C++ <br> MySQL  </p>
+            </div>
+
+            <div class="droitecompetences w-50">
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+
+<div id="Formation" class="block4 d-flex flex-column align-items-center">
+            <h5>Formations :</h5>
+        <div class="placementformation">
+            <div class="gauchecont2">
+                <p>Du 05/10/2020 au 27/08/2021</p>
+            </div>
+            <div class="droitecont2">
+                <p>Formation Valarep Développeur WEB & WEB Mobile</p>
+            </div>
+        </div>
+
+            <h5 id="Diplome">Diplôme:</h5>
+        <div class="placementdiplome">
+            <div class="gauchediplome">
+                <p>2016-2017 <br> 2019-2020 <br> 2020-2021 </p>
+            </div>
+            <div class="droitediplome">
+                <p>Acquisition du Brevet des colléges <br> Acquisition du Baccalauréat Scientifique <br> Titre Professionel Développeur WEB & WEB Mobile </p>
+            </div>
+        </div>
+
+        <h5>Expériences:</h5>
+        <div class="placementexperience">
+            <div class="gaucheexperience">
+                <p>Stagiaire/USINE TUBERIE VALLOUREC <br> 03/2017 à 04/2017 </p>
+            </div>
+            <div class="droiteexperience">
+                <p> Apprendre à comment savoir gérer un groupe d'ouvrier.</p>
+            </div>
+        </div>
+
+</div>
+
+
 </div>
 
 </body>

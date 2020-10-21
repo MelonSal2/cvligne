@@ -1,24 +1,36 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+h5 {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
 .InfoPerso {
   border: 1px solid black;
   margin: 2em;
   margin-top: 5em;
   padding: 25px;
-  width: 25%;
+  width: 20%;
   border-radius: 1em;
   box-shadow: 8px 8px 8px 0px rgb(202, 202, 202);
-  background-color: rgb(240, 240, 240);
+  background-color: white;
   position: fixed; 
+}
+
+.textnav {
+  margin-top: 2em;
 }
 
 .block2  {
   border: 1px solid black;
   padding: 25px;
   margin: 5em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   border-radius: 1em;
   box-shadow: 8px 8px 8px rgb(202, 202, 202);
-  background-color: rgb(240, 240, 240);
-  width: 65%;
+  background-color: white;
+  width: 72%;
   }
   
   .block3  {
@@ -27,18 +39,47 @@
     margin: 5em;
     border-radius: 1em;
     box-shadow: 8px 8px 8px rgb(202, 202, 202);
-    background-color: rgb(240, 240, 240);
-    width: 65%;
+    background-color: white;
+    width: 72%;
+    display: flex;
+    flex-direction: column;
     }
+
+.placementcompetences {
+  margin-top: 3em;
+}
+
+.middlecompetences {
+  margin-top: 1em;
+}
+
+.droitecompetences {
+  margin-top: 20px;
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+
+.block4  {
+  border: 1px solid black;
+  padding: 25px;
+  margin: 5em;
+  border-radius: 1em;
+  box-shadow: 8px 8px 8px rgb(202, 202, 202);
+  background-color: white;
+  width: 72%;
+  }
 
 .photocv {
   width: 12em;
+  margin-bottom: 1em;
 }
 
 .photocvplacement {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .containerdroite {
@@ -48,3 +89,59 @@
   width: 100%;
 }
 
+.placementformation {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+.gauchecont2 {
+  width: 50%;
+}
+
+.droitecont2 {
+  width:  50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.placementdiplome {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+.gauchediplome {
+  width: 50%;
+}
+
+.droitediplome {
+  width:  50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.placementexperience {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+.gaucheexperience {
+  width: 50%;
+}
+
+.droiteexperience {
+  width:  50%;
+  display: flex;
+  align-items: flex-end;
+}
